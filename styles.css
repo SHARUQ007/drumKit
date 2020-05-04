@@ -71,7 +71,7 @@ br{
 .red {
   color: red;
 }
-@media(mix-width:992px){
+@media(min-width:992px){
 .drum {
   outline: none;
   border: 10px solid #404B69;
