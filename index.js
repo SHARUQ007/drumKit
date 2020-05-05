@@ -1,3 +1,5 @@
+   var tom1=new Audio("sounds/tom-1.mp3");
+    tom1.preload = "auto";
 var numberofdb= document.querySelectorAll(".drum").length;
 for(var i=0;i<numberofdb;i++)
 {
@@ -16,7 +18,6 @@ for(var i=0;i<numberofdb;i++)
 function makeSound(key){
       switch (key) {
         case "w":
-          var tom1=new Audio("sounds/tom-1.mp3");
           tom1.play();
           break;
         case "a":
