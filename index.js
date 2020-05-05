@@ -1,6 +1,6 @@
-   var tom1=new Audio("sounds/tom-1.mp3");
-    tom1.preload = "auto";
 var numberofdb= document.querySelectorAll(".drum").length;
+var tom1=new Audio("sounds/tom-1.mp3");
+tom1.preload = "auto";
 for(var i=0;i<numberofdb;i++)
 {
   document.querySelectorAll(".drum")[i].addEventListener("click",function(){
